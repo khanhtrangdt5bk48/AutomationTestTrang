@@ -1,5 +1,6 @@
 package automation.testsuite;
 
+import java.lang.reflect.Array;
 import java.util.Scanner;
 
 import org.testng.annotations.Test; //sử dụng ctrl + cách để xh gợi ý
@@ -65,6 +66,25 @@ public class Practice
 			
 		}
 		System.out.println("Số lớn nhất của mảng là: "+min);
+	}
+	@Test
+	public void nhapTenNhanVien()
+	{
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Tổng số nhân viên hiện tại: ");
+		int n = sc.nextInt();
+		sc.nextLine();
+		String[] nhanVien = new String[n];
+		for (int i = 0; i < n; i++)
+		{
+			System.out.println("Hãy nhập tên nhân viên thứ "+i+": ");
+			nhanVien[i] = sc.nextLine();
+		}
+		System.out.println("Danh sách nhân viên: ");
+		for (String ten : nhanVien)
+		{
+			System.out.println("- " + ten);	
+		}
 	}
 
 }
