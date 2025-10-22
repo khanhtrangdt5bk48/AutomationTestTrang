@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-10-22T15:00:33 ICT" name="Default suite" finished-at="2025-10-22T15:00:44 ICT" duration-ms="11601">
+  <suite started-at="2025-10-22T15:12:29 ICT" name="Default suite" finished-at="2025-10-22T15:12:42 ICT" duration-ms="12791">
     <groups>
     </groups>
-    <test started-at="2025-10-22T15:00:33 ICT" name="Default test" finished-at="2025-10-22T15:00:44 ICT" duration-ms="11601">
+    <test started-at="2025-10-22T15:12:29 ICT" name="Default test" finished-at="2025-10-22T15:12:42 ICT" duration-ms="12791">
       <class name="automation.testsuite.Practice">
-        <test-method signature="tinhTongMang()[pri:0, instance:automation.testsuite.Practice@4c583ecf]" started-at="2025-10-22T15:00:33 ICT" name="tinhTongMang" finished-at="2025-10-22T15:00:44 ICT" duration-ms="11566" status="PASS">
+        <test-method signature="timSoNhoNhatMang()[pri:0, instance:automation.testsuite.Practice@692f203f]" started-at="2025-10-22T15:12:29 ICT" name="timSoNhoNhatMang" finished-at="2025-10-22T15:12:42 ICT" duration-ms="12752" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tinhTongMang -->
+        </test-method> <!-- timSoNhoNhatMang -->
       </class> <!-- automation.testsuite.Practice -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

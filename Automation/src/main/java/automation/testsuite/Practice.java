@@ -44,5 +44,27 @@ public class Practice
 		}
 		System.out.println("Số lớn nhất của mảng là: "+max);
 	}
+	@Test
+	public void timSoNhoNhatMang()
+	{
+		/* Nhập vào một mảng gồm n phần tử (n nhập vào từ bàn phím). Tính tổng của các phần tử trong mảng vừa nhập*/
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Nhập độ dài của mảng: ");
+		int n = sc.nextInt();
+		int[]a = new int[n];
+		for (int i = 0; i < n; i++)
+		{
+			System.out.println("Nhập phần tử mảng thứ "+i+1);
+			a[i] = sc.nextInt();
+		}
+		int min = a[n-1];
+		for (int i = 0; i < n; i++)
+		{
+			if (a[i] < min)
+				min = a[i];
+			
+		}
+		System.out.println("Số lớn nhất của mảng là: "+min);
+	}
 
 }
