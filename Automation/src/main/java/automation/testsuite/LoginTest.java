@@ -34,4 +34,5 @@ public class LoginTest extends CommonBase
 		WebElement error = driver.findElement(By.xpath("//h4[text()='Đăng nhập']"));
 		assertTrue(error.isDisplayed());
 	}
+	
 }

@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-11-23T18:58:39 ICT" name="Default suite" finished-at="2025-11-23T18:58:42 ICT" duration-ms="2422">
+  <suite started-at="2025-11-23T20:38:42 ICT" name="Default suite" finished-at="2025-11-23T20:39:47 ICT" duration-ms="64842">
     <groups>
     </groups>
-    <test started-at="2025-11-23T18:58:39 ICT" name="Default test" finished-at="2025-11-23T18:58:42 ICT" duration-ms="2422">
-      <class name="automation.testsuite.BTVNday12_bai3">
-        <test-method signature="jobRole1()[pri:0, instance:automation.testsuite.BTVNday12_bai3@1aafa419]" started-at="2025-11-23T18:58:39 ICT" name="jobRole1" finished-at="2025-11-23T18:58:42 ICT" duration-ms="2389" status="PASS">
+    <test started-at="2025-11-23T20:38:42 ICT" name="Default test" finished-at="2025-11-23T20:39:47 ICT" duration-ms="64842">
+      <class name="automation.testsuite.BTVNday13_logouttest">
+        <test-method signature="logoutSuccessfully()[pri:0, instance:automation.testsuite.BTVNday13_logouttest@1aafa419]" started-at="2025-11-23T20:38:42 ICT" name="logoutSuccessfully" finished-at="2025-11-23T20:39:47 ICT" duration-ms="64810" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- jobRole1 -->
-      </class> <!-- automation.testsuite.BTVNday12_bai3 -->
+        </test-method> <!-- logoutSuccessfully -->
+      </class> <!-- automation.testsuite.BTVNday13_logouttest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

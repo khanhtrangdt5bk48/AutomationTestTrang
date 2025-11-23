@@ -1,5 +1,7 @@
 package automation.common;
 
+import java.time.Duration;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -13,6 +15,7 @@ public class CommonBase
 		FirefoxDriver driver = new FirefoxDriver();
 		driver.get(URL);
 		driver.manage().window().maximize();
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		return driver;
 	}
 	public WebDriver initChromeDriver(String URL)
@@ -21,6 +24,7 @@ public class CommonBase
 		ChromeDriver driver = new ChromeDriver();
 		driver.get(URL);
 		driver.manage().window().maximize();
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		return driver;
 	}
 	public void closeDriver()
@@ -28,6 +32,5 @@ public class CommonBase
 		if(driver != null)
 			driver.close();
 	}
-	
 
 }
