@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="automation.testsuite.BTVNday13_logouttest">
+      <class name="automation.testsuite.BTVNday14_test">
         <methods>
-          <include name="logoutSuccessfully"/>
+          <include name="openWebstie"/>
+          <include name="ChangePwd"/>
         </methods>
-      </class> <!-- automation.testsuite.BTVNday13_logouttest -->
+      </class> <!-- automation.testsuite.BTVNday14_test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

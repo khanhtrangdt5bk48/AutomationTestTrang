@@ -10,5 +10,6 @@ public class CT_PageURL
 	public static String CRMSTAR_URL = "https://test-system.crmstar.vn/";
 	public static String DEMOQA_URL = "https://demoqa.com/automation-practice-form";
 	public static String GLOBALSQA_URL = "https://www.globalsqa.com/demo-site/select-dropdown-menu/";
+	public static String VIBLO_URL ="https://accounts.viblo.asia/login";
 
 }
