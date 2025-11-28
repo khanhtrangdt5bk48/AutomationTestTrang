@@ -2,20 +2,20 @@
 <testng-results ignored="3" total="4" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-11-24T22:10:02 ICT" name="Default suite" finished-at="2025-11-24T22:10:07 ICT" duration-ms="5074">
+  <suite started-at="2025-11-28T14:47:03 ICT" name="Default suite" finished-at="2025-11-28T14:47:10 ICT" duration-ms="6516">
     <groups>
     </groups>
-    <test started-at="2025-11-24T22:10:02 ICT" name="Default test" finished-at="2025-11-24T22:10:07 ICT" duration-ms="5074">
-      <class name="automation.testsuite.BTVNday14_test">
-        <test-method is-config="true" signature="openWebstie()[pri:0, instance:automation.testsuite.BTVNday14_test@3590fc5b]" started-at="2025-11-24T22:10:02 ICT" name="openWebstie" finished-at="2025-11-24T22:10:04 ICT" duration-ms="2174" status="PASS">
+    <test started-at="2025-11-28T14:47:03 ICT" name="Default test" finished-at="2025-11-28T14:47:10 ICT" duration-ms="6516">
+      <class name="automation.testsuite.TEDU_CapNhatMK_Test">
+        <test-method is-config="true" signature="openWebPage()[pri:0, instance:automation.testsuite.TEDU_CapNhatMK_Test@3590fc5b]" started-at="2025-11-28T14:47:03 ICT" name="openWebPage" finished-at="2025-11-28T14:47:06 ICT" duration-ms="3099" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openWebstie -->
-        <test-method signature="ChangePwd()[pri:0, instance:automation.testsuite.BTVNday14_test@3590fc5b]" started-at="2025-11-24T22:10:04 ICT" name="ChangePwd" finished-at="2025-11-24T22:10:07 ICT" duration-ms="2872" status="PASS">
+        </test-method> <!-- openWebPage -->
+        <test-method signature="searchCourse2()[pri:0, instance:automation.testsuite.TEDU_CapNhatMK_Test@3590fc5b]" started-at="2025-11-28T14:47:06 ICT" name="searchCourse2" finished-at="2025-11-28T14:47:10 ICT" duration-ms="3381" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ChangePwd -->
-      </class> <!-- automation.testsuite.BTVNday14_test -->
+        </test-method> <!-- searchCourse2 -->
+      </class> <!-- automation.testsuite.TEDU_CapNhatMK_Test -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

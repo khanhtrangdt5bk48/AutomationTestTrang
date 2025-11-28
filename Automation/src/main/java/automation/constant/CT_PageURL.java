@@ -11,5 +11,7 @@ public class CT_PageURL
 	public static String DEMOQA_URL = "https://demoqa.com/automation-practice-form";
 	public static String GLOBALSQA_URL = "https://www.globalsqa.com/demo-site/select-dropdown-menu/";
 	public static String VIBLO_URL ="https://accounts.viblo.asia/login";
+	public static String TEDU_URL ="https://tedu.com.vn/";
+	public static String GURU_URL = "https://demo.guru99.com/test/";
 
 }
